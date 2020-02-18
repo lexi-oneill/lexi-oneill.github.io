@@ -1,0 +1,76 @@
+Eye Spy in your Camera Roll
+
+In order to create this page, you need to go way back in your phone history–– seriously, we’re talking those first photos, because this is a game of eye spy. 
+
+Based on your preference below, you will find 40 photos in your camera roll in accordance to the colors you’ve been assigned, 80 total, 40 per color. The color needs to be the most prominent in the image (it’s okay if not the entire image)/
+
+	Which do you prefer:
+
+		🐶 corgis: 	Red –– Green
+
+		🐨 koalas:	Orange –– Blue
+		
+		😸 cats:		Yellow –– Purple
+
+1. Great. You will now find photos on your phone/computer in the first color of the two. If you don’t have enough photos, congratulations–– you’re going on an adventure. See the “Shit, A Color Adventure” section below for further instruction now.
+
+2. Once you found 40 photos of your first color, airdrop/email/send them to your computer. You will put these into a new folder titled the name of your color (eg. “red”). 
+
+3. Name the photos based on their hue of your first color, ordering from lightest to darkest and rename the file accordingly.
+
+4. Repeat the process listed above for the second color you were assigned based off of your animal preference, making sure to add a subtle differentiation in numbers to prevent calling the wrong image on the browser.
+
+5. In looking at your folder, make sure the images are at a low resolution so the screen will be able to process them in a timely manner. 
+
+6. Crop images are so they are in a portrait orientation
+
+————
+
+Let’s set this shit up!
+
+1. Currently you should have two folders on your desktop, named a particular color, with 40 photos inside. You will create a new folder titled “exercise-b-eye-spy-“ with your name following the “spy-“ (eg. “spy-bob”). 
+
+2. Move your two photo folders titled with your two assigned colors inside of the “exercise-b-eye-spy-*name*) folder you just made.
+
+3. Open up a code editor of your choice and create two documents, one of basic web language, and one assisting said page on design preferences.
+
+4. Set up your “basic web language” doc and save this into your exercise b folder. Do the same for your “assisted design page”, making sure the two link. 
+
+————
+
+Great! Let’s get going on this layout.  
+
+1. Title your document + make the web page responsive/compatible for screen readers, emojis, etc
+
+2. Make sure you’re text is responsive should an increased screen view be used.
+
+3. Create an all encompassing container that holds the components of a organizational layout that is divisible by 40 across and down the screen (hint, these will be different numbers). 
+
+4. One photo will be uploaded per unit. Sort the interior works within said container to make sure that the layout is an entire entity and responsive.
+
+5. Depending on the height of your desired cells, please make sure to put these dimensions to your photo’s as well, so they take up the entire width of a unit.
+
+6. Should one cursor move over top of one image cell, please code and alternative image to appear, of the compliment color, that is also arranged from lightest to darkest. Thus, as one moves over all of the images on the page in order, they will be revealed to see an accompanying image in similar light-dark hue of the complimentary color in the same place as the original colored photo.
+
+7. Repeat the process above for every image on the screen (hint - you should just copy and paste! Doing so with your file names up for photos makes this process a whole lot faster!) *There should be no white space between the cell’s units and all components within the container should be touching. Should this be a problem, please consult your assisted design page to ensure that said proportions of cells containing images are the congruent with the cell’s determined dimensions.
+
+8. Add a component to the page in a web-safe, sans-serif typeface that says “eye spy *name’s* camera roll (eg. “Eye spy bob’s camera roll”)
+
+9. Give your container some room to breathe on the page, so that it is not lying right against your scroll bar ;)
+
+10. Alter the icon representing how one navigates the page to resemble something that is “searching” or “looking for”
+
+11. Make the webpage responsive at different screen sizes so no photos are cut off and we can see your lovely images
+
+12. Cheer–– you’re done! Save this bad boy and upload to git hub! 
+
+————
+
+This is the “Shit, A Color Adventure” Section
+
+Congrats, you’re feed is about to get a lot more colorful. Please go out and find, search for, or phone a friend to fill your web content with the colors that you were given.
+
+I highly recommend taking this time to grab a bite to eat, see some new spots of the city, and make some colorful choices :)
+
+
+
