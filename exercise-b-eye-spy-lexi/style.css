@@ -1,0 +1,470 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding:0;
+    margin:0;
+    cursor:zoom-in;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-style:bold;
+    margin:2%;
+}
+
+img {
+    height:18rem;
+}
+
+.container {
+    /* position:relative; */
+    margin:2%;
+}
+
+.grid {
+    display: grid;
+    flex-wrap:wrap;
+    grid-template-rows: 18rem 18rem 18rem 18rem 18rem;
+    grid-template-columns: 16rem 16rem 16rem 16rem 16rem 16rem 16rem 16rem;
+    border: solid 3px white;
+    width: max-content;
+}
+
+@media screen and (max-width: 1340px) {
+    .grid {
+        grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem;
+        grid-template-columns: 16rem 16rem 16rem 16rem 16rem 16rem 16rem ;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .grid {
+        grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+        grid-template-columns: 16rem 16rem 16rem 16rem 16rem 16rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .grid {
+        grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+        grid-template-columns: 16rem 16rem 16rem 16rem 16rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .grid {
+        grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+        grid-template-columns: 16rem 16rem 16rem 16rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .grid {
+        grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+        grid-template-columns: 16rem 16rem 16rem;
+    }
+}
+
+
+
+.box1 {
+    background:url(orange/1-O.jpg) no-repeat center;
+    background-size:18rem;
+   
+}
+.box1:hover {
+    background:url(blue/1.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box2 {
+    background:url(orange/2-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box2:hover {
+    background:url(blue/2.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box3 {
+    background:url(orange/3-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box3:hover {
+    background:url(blue/3.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box4 {
+    background:url(orange/4-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box4:hover {
+    background:url(blue/4.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box5 {
+    background:url(orange/5-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box5:hover {
+    background:url(blue/5.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box6 {
+    background:url(orange/6-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box6:hover {
+    background:url(blue/6.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box7 {
+    background:url(orange/7-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box7:hover {
+    background:url(blue/7.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box8 {
+    background:url(orange/8-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box8:hover {
+    background:url(blue/8.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box9 {
+    background:url(orange/9-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box9:hover {
+    background:url(blue/9.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+.box10 {
+    background:url(orange/10-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box10:hover {
+    background:url(blue/10.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box11 {
+    background:url(orange/11-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box11:hover {
+    background:url(blue/11.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box12 {
+    background:url(orange/12-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box12:hover {
+    background:url(blue/12.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box13 {
+    background:url(orange/13-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box13:hover {
+    background:url(blue/13.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box14 {
+    background:url(orange/14-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box14:hover {
+    background:url(blue/14.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box15 {
+    background:url(orange/15-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box15:hover {
+    background:url(blue/15.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box16 {
+    background:url(orange/16-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box16:hover {
+    background:url(blue/16.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box17 {
+    background:url(orange/17-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box17:hover {
+    background:url(blue/17.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box18 {
+    background:url(orange/18-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box18:hover {
+    background:url(blue/18.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box19 {
+    background:url(orange/19-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box19:hover {
+    background:url(blue/19.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box20 {
+    background:url(orange/20-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box20:hover {
+    background:url(blue/20.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box21 {
+    background:url(orange/21-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box21:hover {
+    background:url(blue/21.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box22 {
+    background:url(orange/22-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box22:hover {
+    background:url(blue/22.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box23 {
+    background:url(orange/23-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box23:hover {
+    background:url(blue/23.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box24 {
+    background:url(orange/24-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box24:hover {
+    background:url(blue/24.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box25 {
+    background:url(orange/25-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box25:hover {
+    background:url(blue/25.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box26 {
+    background:url(orange/26-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box26:hover {
+    background:url(blue/26.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box27 {
+    background:url(orange/27-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box27:hover {
+    background:url(blue/27.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box28 {
+    background:url(orange/28-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box28:hover {
+    background:url(blue/28.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box29 {
+    background:url(orange/29-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box29:hover {
+    background:url(blue/29.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box30 {
+    background:url(orange/30-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box30:hover {
+    background:url(blue/30.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box31 {
+    background:url(orange/31-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box31:hover {
+    background:url(blue/31.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box32 {
+    background:url(orange/32-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box32:hover {
+    background:url(blue/32.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box33 {
+    background:url(orange/33-O.jpg) no-repeat center;
+    background-size:18rem;
+    background-clip: border-box;
+}
+.box33:hover {
+    background:url(blue/33.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box34 {
+    background:url(orange/34-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box34:hover {
+    background:url(blue/34.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box35 {
+    background:url(orange/35-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box35:hover {
+    background:url(blue/35.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box36 {
+    background:url(orange/36-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box36:hover {
+    background:url(blue/36.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box37 {
+    background:url(orange/37-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box37:hover {
+    background:url(blue/37.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box38 {
+    background:url(orange/38-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box38:hover {
+    background:url(blue/38.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box39 {
+    background:url(orange/39-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box39:hover {
+    background:url(blue/39.jpg) no-repeat center;
+    background-size: 18rem;    
+}
+
+
+.box40 {
+    background:url(orange/40-O.jpg) no-repeat center;
+    background-size:18rem;
+}
+.box40:hover {
+    background:url(blue/40.jpg) no-repeat center;
+    background-size: 18rem;    
+}
