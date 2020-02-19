@@ -1,0 +1,107 @@
+body {
+    background-color: lightblue;
+}
+
+.oval-1, .oval-2, .oval-3, .oval-4, .oval-5, .oval-6 {
+    width:10rem;
+    height:6rem;
+    border-radius:60%;
+    background-color: white;
+    position:absolute;
+}
+/* section end */
+
+@keyframes bobble1{
+    0% {left:20%;}
+    50% {left:27%;}
+    100% {left:20%;}
+}
+
+.oval-1 {
+    left:20%;
+    top:15%;
+
+    animation: 4s infinite bobble1 ease-in-out;
+    animation-duration: infinite;
+    animation-delay:.5s;
+}
+/* section end */
+
+@keyframes bobble2{
+    0% {left:5%;}
+    50% {left:9%;}
+    100% {left:5%;}
+}
+
+.oval-2 {
+    left:5%;
+    top:80%;
+
+    animation: 5s infinite bobble2 ease-in-out;
+    animation-duration: infinite;
+    animation-delay:.5s;
+}
+/* section end */
+
+@keyframes bobble3{
+    0% {left:78%;}
+    50% {left:70%;}
+    100% {left:78%;}
+}
+
+.oval-3 {
+    left:78%;
+    top:70%;
+
+    animation: 3.5s infinite bobble3 ease-in-out;
+    animation-duration: infinite;
+    animation-delay:0s;
+}
+/* section end */
+
+@keyframes bobble4{
+    0% {left:65%; }
+    50% {left:71%; }
+    100% {left:65%; }
+}
+
+.oval-4 {
+    left:65%;
+    top:35%;
+
+    animation: 2.8s infinite bobble4 ease-in-out;
+    animation-duration: infinite;
+    animation-delay:0s;
+}
+/* section end */
+
+@keyframes bobble5{
+    0% {left:59%; }
+    50% {left:53%;}
+    100% {left:59%;}
+}
+
+.oval-5 {
+    left:59%;
+    top:15%;
+
+    animation: 4s infinite bobble5 ease-in-out;
+    animation-duration: infinite;
+}
+/* section end */
+
+@keyframes bobble6{
+    0% {left:35%;}
+    50% {left:41%;}
+    100% {left:35%;}
+}
+
+.oval-6 {
+    left:35%;
+    top:65%;
+
+    animation: 2s infinite bobble6 ease-in-out;
+    animation-duration: infinite;
+    animation-delay:.2s;
+}
+/* section end */
