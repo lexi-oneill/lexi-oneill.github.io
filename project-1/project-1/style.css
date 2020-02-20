@@ -1,0 +1,257 @@
+html {
+    font-size: 62.5%;}
+
+body {
+    padding:0;
+    margin:5rem;}
+
+/* UNTITLED SERIF FAMILY */
+
+@font-face {
+    font-family:"untitled-serif-test-bold-italic";
+    src: url("type-assets/untitled-serif-test-bold-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family:"untitled-serif-test-bold";
+    src: url("type-assets/untitled-serif-test-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family:"untitled-serif-test-regular";
+    src: url("type-assets/untitled-serif-test-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family:"untitled-serif-test-regular-italic";
+    src: url("type-assets/untitled-serif-test-regular-italic.woff") format("woff");
+}
+
+/* UNTITLED SERIF FAMILY */
+
+@font-face {
+    font-family:"untitled-serif-test-bold-italic";
+    src: url("type-assets/untitled-serif-test-bold-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family:"untitled-serif-test-bold";
+    src: url("type-assets/untitled-serif-test-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family:"untitled-serif-test-regular";
+    src: url("type-assets/untitled-serif-test-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family:"untitled-serif-test-regular-italic";
+    src: url("type-assets/untitled-serif-test-regular-italic.woff") format("woff");
+}
+
+
+/* MONOSPACE FAMILY */
+
+@font-face {
+    font-family:"soehne-mono-test-buch";
+    src: url("type-assets/soehne-mono-test-buch.woff") format("woff");
+}
+
+@font-face {
+    font-family:"soehne-mono-test-kraftig";
+    src: url("type-assets/soehne-mono-test-kraftig.woff") format("woff");
+}
+
+@font-face {
+    font-family:"soehne-mono-test-leicht";
+    src: url("type-assets/soehne-mono-test-leicht.woff") format("woff");
+}
+
+/* elipses animation*/
+
+@keyframes bounce {  
+    50% {transform: translateY(.75rem);}
+}
+
+
+/* text reminder animation*/
+
+@keyframes fade {  
+    0% {transform: opacity(100%);}
+    50% {transform: opacity(0%);}
+    100% {transform: opacity(100%);}
+}
+
+#body-test, #body-2, #body-3{font-family:"soehne-mono-test-leicht";
+    font-size:1.5rem;
+    width:32rem;}
+
+#headline-test, #headline-2, #headline-3 {
+    font-family:"soehne-mono-test-leicht";
+    font-size: 8rem;
+    line-height: 10rem;
+    width:80rem;}
+
+/* SEND TEXT LINK*/
+
+.connect, .connect-2, .connect-3 {
+    position:absolute;
+    /* padding:2rem; */
+    left:27%;
+    top:60%;}
+
+.continue-elipses, .continue-elipses-2, .continue-elipses-3 {
+    left:32%;
+    top:47%;
+    position:absolute;
+    rotate:50%;
+    /* animation: 2s bounce ease infinite; */
+    /* animation-iteration-count: infinite, infinite;
+    animation-timing-function: ease-in-out, ease-in-out; */}
+
+.continue-elipses:hover #connect-text {
+    visibility:visible;
+}
+.continue-elipses-2:hover #connect-text-2 {
+    visibility:visible;
+}
+
+
+#connect-text, #connect-text-2, #connect-text-3 {
+    font-family:"soehne-mono-test-leicht";
+    font-size:.5rem;
+    width:10rem;
+    visibility:hidden;
+    left:27%;
+    top:60%;}
+
+#textmessage, #textmessage-2, #textmessage-3{
+    position:absolute;
+    left:27%;
+    top:60%;
+    padding-top:2rem;
+    text-decoration:none;
+    color:black;
+    width:10rem;}
+
+
+/* ELIPSES*/
+
+.circle1, .circle1-2, .circle1-3{
+    width:1.2rem;
+    height:1.2rem;
+    /* border-radius: .75rem; */
+    background-color: black;
+    margin:.35rem;
+    align-content: center;
+    float: left;
+
+    animation:2s bounce ease infinite;
+    animation-delay:0s;}
+
+.circle2, .circle2-2, .circle2-3 {
+    width:1.2rem;
+    height:1.2rem;
+    /* border-radius: .75rem; */
+    background-color: black;
+    margin:.35rem;
+    align-content: center;
+    float: left;
+
+    animation:2s bounce ease infinite;
+    animation-delay:.20s;}
+
+.circle3, .circle3-2, .circle3-3 {
+    width:1.2rem;
+    height:1.2rem;
+    /* border-radius: .75rem; */
+    background-color: black;
+    margin:.35rem;
+    align-content: center;
+    float: left;
+
+    animation:2s bounce ease infinite;
+    animation-delay:.40s;}
+
+/* end elipses animation*/
+
+
+/* begin grid */
+
+    /* iphoneX */
+    @media screen and (max-width: 375px) {
+
+        .maincontainer {
+            top:30%;}
+    
+        #body-test {
+            font-family:"soehne-mono-test-leicht";
+            font-size:.85rem;
+            width:20rem;
+            top:50%;}
+                
+        #headline-test {
+            font-family:"soehne-mono-test-leicht";
+            font-size: 4rem;
+            line-height: 5.5rem;
+            width:30rem;}
+                
+         /* SEND TEXT LINK*/
+                
+        .connect {
+            position:absolute;
+            /* padding:2rem; */
+            left:60%;
+            top:62%;}
+                
+        .continue-elipses {
+            left:60%;
+            top:62%;
+/*              /* animation: 2s bounce ease infinite; */
+            /* animation-iteration-count: infinite, infinite;
+            animation-timing-function: ease-in-out, ease-in-out; */}
+                
+        .continue-elipses:hover #connect-text {
+            visibility:visible;}
+                
+        #connect-text {
+            font-family:"soehne-mono-test-leicht";
+            font-size:.5rem;
+            width:10rem;
+            visibility:hidden;
+            left:60%;
+            top:62%;}
+                
+        #textmessage {
+            position:absolute;
+            left:20%;
+            top:32%;;
+            padding-top:1rem;
+            text-decoration:none;
+            color:black;
+            width:6rem;}
+                
+     }
+
+    /* ipad */
+    @media screen and (max-width: 768px) {
+        .grid {
+            grid-template-rows: 81.2rem;
+            grid-template-columns: 37.5rem 37.5rem; }
+    }
+
+    /* laptop */
+    @media screen and (max-width: 1224px) {
+        .grid {
+            grid-template-rows: 81.2rem;
+            grid-template-columns: 37.5rem 37.5rem 37.5rem 37.5rem;
+        }
+    }
+
+    /* large screen */
+    @media screen and (max-width: 1824px) {
+        .grid {
+             grid-template-rows: 81.2rem 81.2rem 81.2rem 81.2rem 81.2rem;
+             grid-template-columns: 37.5rem;}
+     }
+
